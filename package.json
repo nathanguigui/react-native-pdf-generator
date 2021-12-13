@@ -1,0 +1,17 @@
+{
+  "name": "react-native-pdf-generator",
+  "version": "1.4.1",
+  "description": "A library for create PDF files in React Native projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "techagr",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}

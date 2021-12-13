@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="595px"
+    android:layout_height="842px"
+    android:padding="0px"
+    android:background="#fff"
+    android:id="@+id/mainLayout">
+
+    <LinearLayout
+        android:id="@+id/mLayout"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_margin="0px"
+        android:padding="0px"
+        android:layout_marginHorizontal="0px"
+        android:layout_marginVertical="0px"
+        android:layout_width="595px"
+        android:layout_height="842px"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/txtViewTimestamp"
+            android:textSize="10px"
+
+            />
+
+        <ImageView
+            android:id="@+id/imgViewLogo"
+            android:layout_height="80px"
+            android:layout_width="120px"
+            android:layout_gravity="top|center"
+            android:src="@drawable/beeftrader_logo"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtViewTitle"
+            android:textSize="20px"
+            android:textAlignment="center"
+
+            />
+        <LinearLayout
+            android:layout_width="595px"
+            android:layout_height="700px"
+            android:orientation="vertical"
+            android:id="@+id/documentBody"
+            >
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
